@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Episódios | NegligêncIA</title>
+<meta name="description" content="Projeto e documentário sobre desinformação gerada por inteligência artificial.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<header class="topo"><div class="wrap barra">
+<a class="logo" href="index.html">NegligêncIA</a>
+<button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+<nav id="menu" aria-label="Principal"><ul>
+<li><a href="index.html">Início</a></li>
+<li><a href="sobre.html">Sobre o projeto</a></li>
+<li><a href="documentario.html" aria-current="page">Documentário</a></li>
+</ul></nav></div></header>
+<main id="conteudo">
+<section class="hero-doc" aria-labelledby="titulo">
+<div class="hero-bg" id="heroBg" aria-hidden="true"></div>
+<div class="wrap hero-conteudo">
+<p class="selo">Documentário do projeto</p>
+<h1 class="glitch" id="titulo"></h1>
+<p class="meta" id="meta"></p>
+<p class="desc" id="descricao"></p>
+<div class="acoes"><button class="btn grande" id="assistir" type="button">▶ Assistir</button><a class="btn sec grande" href="#info">Mais informações</a></div>
+</div>
+<p class="classif" id="classif"></p>
+</section>
+
+<section><div class="wrap"><h2>Temas do documentário</h2></div>
+<ul class="fila-h">
+<li><a class="cartao" href="sobre.html"><span class="cartao-capa" style="--g:#1f5f5b,#16403d">Idosos</span><span class="cartao-txt"><strong>Terceira idade</strong><small>Golpes e correntes falsas no WhatsApp</small></span></a></li>
+<li><a class="cartao" href="sobre.html"><span class="cartao-capa" style="--g:#3a6ea5,#1d3a5e">Eleições</span><span class="cartao-txt"><strong>Eleições de 2026</strong><small>Manipulação e as normas do TSE</small></span></a></li>
+<li><a class="cartao" href="sobre.html"><span class="cartao-capa" style="--g:#b45309,#5e2f1d">Ambiente</span><span class="cartao-txt"><strong>Crise ambiental</strong><small>Quando o falso diz que está tudo bem</small></span></a></li>
+<li><a class="cartao" href="sobre.html"><span class="cartao-capa" style="--g:#3f7d4e,#1d5e3a">Projeto</span><span class="cartao-txt"><strong>Sobre o projeto</strong><small>Conheça nossos objetivos</small></span></a></li>
+</ul></section>
+
+<section id="info"><div class="wrap info-grid">
+<div><h2>Sobre este documentário</h2><p id="descricao2"></p>
+<p>Temas: <span class="tag">Inteligência Artificial</span> <span class="tag">Desinformação</span> <span class="tag">Eleições de 2026</span> <span class="tag">Terceira idade</span> <span class="tag">Letramento digital</span> <span class="tag">Crise ambiental</span></p></div>
+<div><h2>Equipe</h2><p class="equipe">Marco Antonio, Paulo Tarso, Heitor Medeiros, Lucas Rocha, Lucas Venuti, Gabryel Batelli, Bentoh Ventania, Leon Montemor, Beatriz Borin, Beatriz Bertoldi, Julia Borin, Kebily e Lívia.</p></div>
+</div></section>
+
+<dialog id="modal" aria-label="Reprodutor do documentário"><button class="btn sec grande" id="fechar" type="button" style="margin:0 0 .8rem">Fechar</button><div class="player" id="video"></div></dialog>
+</main>
+<footer class="rodape"><div class="wrap">
+<div class="rodape-grid">
+<div><h2>NegligêncIA</h2><p>Um projeto acadêmico dedicado a combater a desinformação gerada por inteligência artificial.</p></div>
+<div><h2>Navegação</h2><ul><li><a href="index.html">Início</a></li><li><a href="sobre.html">Sobre o projeto</a></li><li><a href="documentario.html">Documentário</a></li></ul></div>
+<div><h2>Contato</h2><p>Email:<br><!-- TROQUE PELO EMAIL DO GRUPO --><a href="mailto:seu-email@gmail.com">seu-email@gmail.com</a></p></div>
+</div>
+<p class="integrantes"><strong>Integrantes:</strong> Marco Antonio, Paulo Tarso, Heitor Medeiros, Lucas Rocha, Lucas Venuti, Gabryel Batelli, Bentoh Ventania, Leon Montemor, Beatriz Borin, Beatriz Bertoldi, Julia Borin, Kebily e Lívia.</p>
+<p class="copy">© 2026 NegligêncIA. Todos os direitos reservados.</p>
+</div></footer>
+<script src="js/main.js"></script>
+<script src="js/documentario.js"></script>
+</body>
+</html>
